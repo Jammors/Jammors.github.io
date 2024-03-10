@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Jammors.github.io/sitemap.xml
+Sitemap: https://Jammor.com/sitemap.xml
