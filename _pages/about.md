@@ -1,6 +1,7 @@
 ---
 layout: about
 title: about
+description: Home for insufficiently explored thoughts and ideas, clogging up valuable brain memory space O(n!).
 permalink: /
 subtitle: Home for insufficiently explored thoughts and ideas, clogging up valuable brain memory space O(n!).
 
