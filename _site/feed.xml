@@ -1,4 +1,36 @@
+<<<<<<< Updated upstream
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-09-02T22:44:30+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jamie Morris</title><subtitle>Home for insufficiently explored thoughts and ideas, clogging up valuable brain memory space O(n!). Computer Science graduate, passionate about leveraging the use of machine learning and artificial intelligence, to revolutionize industries and enhance human experiences.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2026/09/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2026-09-02T22:22:28+01:00</published><updated>2026-09-02T22:22:28+01:00</updated><id>http://localhost:4000/jekyll/update/2026/09/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2026/09/02/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+=======
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-11-03T09:42:37+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jamie Morris</title><subtitle>Home for insufficiently explored thoughts and ideas, clogging up valuable brain memory space O(n!). Computer Science graduate, passionate about leveraging the use of machine learning and artificial intelligence, to revolutionize industries and enhance human experiences.</subtitle><entry><title type="html">Bevy Periscope</title><link href="http://localhost:4000/projects/bevy/2026/11/03/bevy-periscope.html" rel="alternate" type="text/html" title="Bevy Periscope" /><published>2026-11-03T09:00:00+00:00</published><updated>2026-11-03T09:00:00+00:00</updated><id>http://localhost:4000/projects/bevy/2026/11/03/bevy-periscope</id><content type="html" xml:base="http://localhost:4000/projects/bevy/2026/11/03/bevy-periscope.html"><![CDATA[<p>A web tool for looking inside a <a href="https://bevy.org">Bevy</a> game while it runs. It connects over the Bevy Remote Protocol, so the game needs no extra plugin.</p>
+
+<video src="/assets/bevy-periscope/periscope-demo.mp4" poster="/assets/bevy-periscope/periscope-demo-poster.jpg" controls="" autoplay="" muted="" loop="" playsinline="" width="1280" height="720" style="max-width: 100%; height: auto;">
+  <img src="/assets/bevy-periscope/periscope-demo.gif" alt="Bevy Periscope connecting to a Bevy app, then plotting entities live, editing a component, running a query, showing system data flow and spinning a globe" />
+</video>
+
+<p><em>An 83-second tour, recorded against a test world of about 240 entities.</em></p>
+
+<h2 id="what-the-video-shows">What the video shows</h2>
+
+<ol>
+  <li><strong>Connect.</strong> Point Periscope at a running app’s BRP port.</li>
+  <li><strong>Watch it live.</strong> Entities are plotted by position, and move as the game runs.</li>
+  <li><strong>Change it.</strong> Editing a boss’s <code class="language-plaintext highlighter-rouge">Transform</code> moves the boss and its squad across the map.</li>
+  <li><strong>Ask questions.</strong> A query finds every entity with <code class="language-plaintext highlighter-rouge">Health.current</code> below 10.</li>
+  <li><strong>See how it fits.</strong> The data flow view shows which systems write the <code class="language-plaintext highlighter-rouge">GameClock</code> resource.</li>
+  <li><strong>Go global.</strong> Geographic data is plotted on a 3D globe.</li>
+</ol>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li><strong>Map:</strong> see your world as a hierarchy, by archetype, as a spatial map, as system data flow, or on a 3D globe.</li>
+  <li><strong>Entities and resources:</strong> browse and search them, and inspect their values. The inspector follows the selected entity live.</li>
+  <li><strong>Query:</strong> build <code class="language-plaintext highlighter-rouge">with</code>, <code class="language-plaintext highlighter-rouge">without</code> and value filters, with paged results that can refresh live.</li>
+  <li><strong>Edit:</strong> change fields, lists, maps and enums, add and remove components and resources, and spawn and despawn entities.</li>
+</ul>
+
+<p>Periscope runs locally as a static web app, and your app doesn’t depend on it. It targets Bevy 0.20.</p>]]></content><author><name></name></author><category term="projects" /><category term="bevy" /><summary type="html"><![CDATA[A web tool for looking inside a Bevy game while it runs. It connects over the Bevy Remote Protocol, so the game needs no extra plugin.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2026/09/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2026-09-02T22:22:28+01:00</published><updated>2026-09-02T22:22:28+01:00</updated><id>http://localhost:4000/jekyll/update/2026/09/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2026/09/02/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+>>>>>>> Stashed changes
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
