@@ -15,7 +15,7 @@ I tried the existing tools, but none of them fit my workflow:
 So I built [Bevy Periscope](https://github.com/Jammors/bevy-periscope), a web-based tool for visualising Bevy ECS apps. It talks to your app over the Bevy Remote Protocol (BRP), so the only change your app needs is enabling Bevy's remote plugins.
 
 <video src="{{ '/assets/bevy-periscope/periscope-demo.mp4' | relative_url }}" poster="{{ '/assets/bevy-periscope/periscope-demo-poster.jpg' | relative_url }}" controls autoplay muted loop playsinline width="1280" height="720" style="max-width: 100%; height: auto;">
-  <img src="{{ '/assets/bevy-periscope/periscope-demo.gif' | relative_url }}" alt="Bevy Periscope connecting to a Bevy app, inspecting a unit live, moving it on the map, running a query, showing which systems use a resource, watching and sending events, and zooming into a detailed globe">
+  <img src="{{ '/assets/bevy-periscope/periscope-demo.gif' | relative_url }}" alt="Bevy Periscope connecting to a Bevy app, inspecting a unit live, moving it on the map, running a query, browsing the hierarchy and archetypes, showing which systems use a resource, watching and sending events, and zooming into a detailed globe">
 </video>
 
 *A tour, recorded against a test world of about 240 entities.*
