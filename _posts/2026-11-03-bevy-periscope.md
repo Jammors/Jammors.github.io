@@ -12,12 +12,12 @@ I tried the existing tools, but none of them fit my workflow:
 - **[vscode-bevy-inspector](https://github.com/splo/vscode-bevy-inspector):** I don't use VS Code, and didn't want to open it just for this.
 - **[bevy_inspector.nvim](https://github.com/Lommix/bevy_inspector.nvim):** Neovim is my daily driver, and I've been using this one, but it can't query components, and it has no hierarchy, archetype, spatial, data flow or globe views. I also felt constrained to working inside Neovim.
 
-So I built [Bevy Periscope](https://gitlab.com/jammor/bevy_periscope), a web-based tool for visualising Bevy ECS apps. It talks to your app over the Bevy Remote Protocol (BRP), so the only change your app needs is enabling Bevy's remote plugins.
+So I built [Bevy Periscope](https://github.com/Jammors/bevy-periscope), a web-based tool for visualising Bevy ECS apps. It talks to your app over the Bevy Remote Protocol (BRP), so the only change your app needs is enabling Bevy's remote plugins.
 
 <video src="{{ '/assets/bevy-periscope/periscope-demo.mp4' | relative_url }}" poster="{{ '/assets/bevy-periscope/periscope-demo-poster.jpg' | relative_url }}" controls autoplay muted loop playsinline width="1280" height="720" style="max-width: 100%; height: auto;">
-  <img src="{{ '/assets/bevy-periscope/periscope-demo.gif' | relative_url }}" alt="Bevy Periscope connecting to a Bevy app, then plotting entities live, editing a component, running a query, showing system data flow and spinning a globe">
+  <img src="{{ '/assets/bevy-periscope/periscope-demo.gif' | relative_url }}" alt="Bevy Periscope connecting to a Bevy app, inspecting a unit live, moving it on the map, running a query, showing which systems use a resource, watching and sending events, and zooming into a detailed globe">
 </video>
 
 *A tour, recorded against a test world of about 240 entities.*
 
-Periscope runs locally as a static web app, and your app doesn't depend on it. At the time of writing, it targets Bevy 0.20. For the current feature list and setup instructions, see the [README](https://gitlab.com/jammor/bevy_periscope).
+Periscope runs locally as a static web app, and your app doesn't depend on it. At the time of writing, it targets Bevy 0.20. For the current feature list and setup instructions, see the [README](https://github.com/Jammors/bevy-periscope).
