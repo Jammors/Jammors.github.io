@@ -19,13 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Jamie Morris
-email: jammorrs@example.com
+email: me@jammor.com
 description: >- # this means to ignore newlines until "baseurl:"
   Home for insufficiently explored thoughts and ideas, clogging up valuable brain memory space O(n!).
-  Computer Science graduate, passionate about leveraging the use of machine learning and artificial intelligence, to revolutionize industries and enhance human experiences.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jammor.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: Jammors
 google_analytics: G-VDPM07RTBF
 
